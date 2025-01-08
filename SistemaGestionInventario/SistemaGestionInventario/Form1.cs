@@ -1,4 +1,4 @@
-namespace LoginForm_1
+namespace SistemaGestionInventario
 {
     public partial class Form1 : Form
     {

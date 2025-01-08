@@ -1,4 +1,4 @@
-namespace LoginForm_1
+namespace SistemaGestionInventario
 {
     internal static class Program
     {
