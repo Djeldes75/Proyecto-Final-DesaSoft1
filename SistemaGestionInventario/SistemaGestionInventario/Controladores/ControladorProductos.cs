@@ -1,7 +1,12 @@
-﻿namespace SistemaGestionInventario.Controladores
-{
-    public class ControladorProductos
-    {
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
+namespace SistemaGestionInventario.Controladores
+{
+    internal class ControladorProductos
+    {
     }
 }
