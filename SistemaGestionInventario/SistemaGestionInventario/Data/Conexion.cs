@@ -12,3 +12,5 @@ namespace SistemaInventario.Modelos
         }
     }
 }
+
+//Dominique Jeldes Petiton estuvo aqui
