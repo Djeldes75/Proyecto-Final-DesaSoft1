@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaGestionInventario.Modelos
+namespace SistemaGestionInventario.Controladores
 {
-    internal class Productos
+    internal class ProductoController
     {
     }
 }

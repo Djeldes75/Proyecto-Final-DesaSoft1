@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SistemaGestionInventario.Controladores
 {
-    internal class ControladorProveedor
+    internal class CategoriaController
     {
     }
 }

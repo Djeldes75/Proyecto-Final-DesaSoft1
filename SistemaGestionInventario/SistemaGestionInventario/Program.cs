@@ -16,7 +16,7 @@ namespace SistemaGestionInventario
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMenuPrincipal());
+            Application.Run(new MainForm());
         }
     }
 }

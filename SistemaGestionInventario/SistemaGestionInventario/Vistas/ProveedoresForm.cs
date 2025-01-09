@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaGestionInventario
+namespace SistemaGestionInventario.Vistas
 {
-    public partial class FrmMenuPrincipal : Form
+    public partial class ProveedoresForm : Form
     {
-        public FrmMenuPrincipal()
+        public ProveedoresForm()
         {
             InitializeComponent();
         }

@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.SqlClient;
 
-namespace SistemaGestionInventario.Data
+public class Conexion
 {
-    internal class Conexion
+    private readonly string connectionString = "Data Source = NEWVOID\\GESTORINVENTARIO; Initial Catalog = GestorInventario; Integrated Security = True; Trust Server Certificate=True";
+
+    public SqlConnection GetConnection()
     {
+        return new SqlConnection(connectionString);
     }
 }
+
