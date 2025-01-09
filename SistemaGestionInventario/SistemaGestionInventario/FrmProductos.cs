@@ -14,6 +14,8 @@ namespace SistemaGestionInventario
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'gestorInventarioDataSet1.Productos' table. You can move, or remove it, as needed.
+            this.productosTableAdapter.Fill(this.gestorInventarioDataSet1.Productos);
 
         }
 

@@ -90,6 +90,16 @@
     <Compile Include="FrmReporteStockBajo.Designer.cs">
       <DependentUpon>FrmReporteStockBajo.cs</DependentUpon>
     </Compile>
+    <Compile Include="GestorInventarioDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GestorInventarioDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GestorInventarioDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GestorInventarioDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Modelos\Categorias.cs" />
     <Compile Include="Modelos\Productos.cs" />
     <Compile Include="Modelos\Proveedores.cs" />
@@ -122,6 +132,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="GestorInventarioDataSet.xsc">
+      <DependentUpon>GestorInventarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GestorInventarioDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GestorInventarioDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GestorInventarioDataSet.xss">
+      <DependentUpon>GestorInventarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GestorInventarioDataSet1.xsc">
+      <DependentUpon>GestorInventarioDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GestorInventarioDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GestorInventarioDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GestorInventarioDataSet1.xss">
+      <DependentUpon>GestorInventarioDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -16,5 +16,22 @@ namespace SistemaGestionInventario
         {
             InitializeComponent();
         }
+
+        private void FrmCategorias_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'gestorInventarioDataSet.Categorias' table. You can move, or remove it, as needed.
+            this.categoriasTableAdapter.Fill(this.gestorInventarioDataSet.Categorias);
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
