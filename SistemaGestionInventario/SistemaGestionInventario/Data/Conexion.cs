@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaGestionInventario.Controladores
+namespace SistemaGestionInventario.Data
 {
-    internal class ControladorProveedores
+    internal class Conexion
     {
     }
 }

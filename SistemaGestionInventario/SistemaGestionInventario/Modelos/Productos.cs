@@ -1,12 +1,12 @@
-﻿namespace SistemaGestionInventario.Modelos
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SistemaGestionInventario.Modelos
 {
-    public class Productos
+    internal class Productos
     {
-        public int CodigoProducto { get; set; }
-        public string Nombre { get; set; }
-        public string CategoriaID { get; set; }
-        public string Precio { get; set; }
-        public string Existencia { get; set; }
-        public string ProveedorID { get; set; }
     }
 }
