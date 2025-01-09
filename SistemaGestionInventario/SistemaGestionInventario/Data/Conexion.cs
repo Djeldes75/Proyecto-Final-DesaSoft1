@@ -1,12 +1,14 @@
 ﻿using System.Data.SqlClient;
 
-public class Conexion
+namespace SistemaInventario.Modelos
 {
-    private readonly string connectionString = "Data Source = NEWVOID\\GESTORINVENTARIO; Initial Catalog = GestorInventario; Integrated Security = True; Trust Server Certificate=True";
-
-    public SqlConnection GetConnection()
+    public static class ConexionBD
     {
-        return new SqlConnection(connectionString);
+        private static string cadenaConexion = "Data Source = NEWVOID\\GESTORINVENTARIO; Initial Catalog = GestorInventario; Integrated Security = True; Trust Server Certificate=True";
+
+        public static SqlConnection ObtenerConexion()
+        {
+            return new SqlConnection(cadenaConexion);
+        }
     }
 }
-
