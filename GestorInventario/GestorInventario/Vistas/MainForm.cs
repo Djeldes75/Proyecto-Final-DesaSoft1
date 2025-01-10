@@ -27,5 +27,10 @@ namespace GestorInventario
             ProveedoresForm proveedoresForm = new ProveedoresForm();
             proveedoresForm.Show();
         }
+
+        private void MainForm_Load(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

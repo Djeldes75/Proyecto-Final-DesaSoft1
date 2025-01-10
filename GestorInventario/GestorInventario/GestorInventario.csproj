@@ -82,6 +82,15 @@
     <Compile Include="Vistas\ProveedoresForm.Designer.cs">
       <DependentUpon>ProveedoresForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\StockBajoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\StockBajoForm.Designer.cs">
+      <DependentUpon>StockBajoForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\CategoriasForm.resx">
+      <DependentUpon>CategoriasForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +105,12 @@
     </Compile>
     <EmbeddedResource Include="Vistas\ProductosForm.resx">
       <DependentUpon>ProductosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\ProveedoresForm.resx">
+      <DependentUpon>ProveedoresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\StockBajoForm.resx">
+      <DependentUpon>StockBajoForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
