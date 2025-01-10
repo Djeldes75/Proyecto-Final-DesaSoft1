@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{91BD39DA-45F2-4A2C-9D70-B7674BC9616C}</ProjectGuid>
+    <ProjectGuid>{ABCA6A81-B0E6-474C-9F5C-022F1189237A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SistemaGestionInventario</RootNamespace>
-    <AssemblyName>SistemaGestionInventario</AssemblyName>
+    <RootNamespace>GestorInventario</RootNamespace>
+    <AssemblyName>GestorInventario</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,7 +52,7 @@
     <Compile Include="Controladores\CategoriaController.cs" />
     <Compile Include="Controladores\ProductoController.cs" />
     <Compile Include="Controladores\ProveedorController.cs" />
-    <Compile Include="Data\Conexion.cs" />
+    <Compile Include="Data\ConexionDB.cs" />
     <Compile Include="Modelos\Categoria.cs" />
     <Compile Include="Modelos\Producto.cs" />
     <Compile Include="Modelos\Proveedor.cs" />

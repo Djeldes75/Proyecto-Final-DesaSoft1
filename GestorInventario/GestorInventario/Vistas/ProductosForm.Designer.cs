@@ -1,6 +1,6 @@
-﻿namespace SistemaGestionInventario.Vistas
+﻿namespace GestorInventario.Vistas
 {
-    partial class CategoriasForm
+    partial class ProductosForm
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "CategoriasForm";
+            this.Text = "ProductosForm";
         }
 
         #endregion

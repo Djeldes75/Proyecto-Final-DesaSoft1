@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaGestionInventario
+namespace GestorInventario.Vistas
 {
-    public partial class MainForm : Form
+    public partial class ProductosForm : Form
     {
-        public MainForm()
+        public ProductosForm()
         {
             InitializeComponent();
         }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaGestionInventario.Vistas
+namespace GestorInventario.Vistas
 {
     public partial class ProveedoresForm : Form
     {
