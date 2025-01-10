@@ -1,6 +1,6 @@
 # Proyecto Final de Desarrollo de Software 1
 
-# Descripción:
+Descripción:
 Sistema de Gestión de Inventario en C#
 
 Desarrollar un sistema de gestión de inventario utilizando el lenguaje de programación C#. El proyecto integrará los conocimientos adquiridos en las unidades de los cursos OnLine vistos y los del laboratorio, como estructuras de control, clases y objetos, manipulación de bases de datos y desarrollo de interfaces gráficas.
