@@ -38,5 +38,10 @@ namespace GestorInventario
             StockBajoForm stockBajoForm = new StockBajoForm();
             stockBajoForm.Show();
         }
+
+        private void salirToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
