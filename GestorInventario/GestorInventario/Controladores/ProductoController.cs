@@ -1,6 +1,6 @@
 ﻿namespace GestorInventario.Controladores
 {
-    internal class ProductoController
+    public class ProductoController
     {
 
     }
