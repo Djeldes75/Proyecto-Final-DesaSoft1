@@ -32,5 +32,11 @@ namespace GestorInventario
         {
 
         }
+
+        private void stockBajoToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            StockBajoForm stockBajoForm = new StockBajoForm();
+            stockBajoForm.Show();
+        }
     }
 }
