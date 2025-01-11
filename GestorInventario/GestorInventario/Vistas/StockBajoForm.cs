@@ -9,5 +9,10 @@ namespace GestorInventario.Vistas
         {
             InitializeComponent();
         }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

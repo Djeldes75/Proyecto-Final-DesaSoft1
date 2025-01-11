@@ -33,21 +33,26 @@
             this.btnEditarCat = new System.Windows.Forms.Button();
             this.btnEliminarCat = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAgregarCat
             // 
-            this.btnAgregarCat.Location = new System.Drawing.Point(347, 231);
+            this.btnAgregarCat.Location = new System.Drawing.Point(639, 202);
             this.btnAgregarCat.Name = "btnAgregarCat";
             this.btnAgregarCat.Size = new System.Drawing.Size(75, 23);
             this.btnAgregarCat.TabIndex = 0;
             this.btnAgregarCat.Text = "Agregar";
             this.btnAgregarCat.UseVisualStyleBackColor = true;
+            this.btnAgregarCat.Click += new System.EventHandler(this.btnAgregarCat_Click);
             // 
             // btnEditarCat
             // 
-            this.btnEditarCat.Location = new System.Drawing.Point(347, 275);
+            this.btnEditarCat.Location = new System.Drawing.Point(639, 246);
             this.btnEditarCat.Name = "btnEditarCat";
             this.btnEditarCat.Size = new System.Drawing.Size(75, 23);
             this.btnEditarCat.TabIndex = 1;
@@ -56,7 +61,7 @@
             // 
             // btnEliminarCat
             // 
-            this.btnEliminarCat.Location = new System.Drawing.Point(347, 322);
+            this.btnEliminarCat.Location = new System.Drawing.Point(639, 293);
             this.btnEliminarCat.Name = "btnEliminarCat";
             this.btnEliminarCat.Size = new System.Drawing.Size(75, 23);
             this.btnEliminarCat.TabIndex = 2;
@@ -66,18 +71,56 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(299, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(537, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(177, 168);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(32, 96);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(193, 20);
+            this.txtNombre.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(28, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(176, 20);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Nombre de la Categoria";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(28, 177);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 20);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Descripcion";
+            // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.Location = new System.Drawing.Point(32, 216);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(189, 20);
+            this.txtDescripcion.TabIndex = 7;
             // 
             // CategoriasForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(482, 391);
+            this.ClientSize = new System.Drawing.Size(726, 528);
+            this.Controls.Add(this.txtDescripcion);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnEliminarCat);
             this.Controls.Add(this.btnEditarCat);
@@ -87,6 +130,7 @@
             this.Text = "Categorias";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -96,5 +140,9 @@
         private System.Windows.Forms.Button btnEditarCat;
         private System.Windows.Forms.Button btnEliminarCat;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtDescripcion;
     }
 }

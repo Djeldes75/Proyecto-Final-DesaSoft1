@@ -53,6 +53,11 @@
     <Compile Include="Controladores\ProductoController.cs" />
     <Compile Include="Controladores\ProveedorController.cs" />
     <Compile Include="Data\ConexionDB.cs" />
+    <Compile Include="GestorInventarioDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GestorInventarioDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Modelos\Categoria.cs" />
     <Compile Include="Modelos\Producto.cs" />
     <Compile Include="Modelos\Proveedor.cs" />
@@ -112,6 +117,17 @@
     <EmbeddedResource Include="Vistas\StockBajoForm.resx">
       <DependentUpon>StockBajoForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="GestorInventarioDataSet.xsc">
+      <DependentUpon>GestorInventarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GestorInventarioDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GestorInventarioDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GestorInventarioDataSet.xss">
+      <DependentUpon>GestorInventarioDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
